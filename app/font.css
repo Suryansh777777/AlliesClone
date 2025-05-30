@@ -1,0 +1,7 @@
+html,
+body {
+  font-family: var(--font-onest);
+}
+.text-novela {
+  font-family: var(--font-novela);
+}

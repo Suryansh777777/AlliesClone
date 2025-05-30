@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Onest } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
+import "./font.css";
 
 const Novela = localFont({
   src: "./fonts/Novela-Regular.otf",
+  variable: "--font-novela",
 });
 
 const OnestFont = Onest({
