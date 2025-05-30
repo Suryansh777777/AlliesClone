@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-[#FCF7F3]  ">
+    <section className="relative w-full  overflow-hidden bg-[#FCF7F3]  ">
       {/* Background Video */}
 
       <img

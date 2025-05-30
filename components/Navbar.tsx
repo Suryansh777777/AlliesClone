@@ -11,17 +11,12 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 
-const links = {
-  leftLinks: [
-    { href: "/", label: "Home" },
-    { href: "/pricing", label: "Pricing" },
-    { href: "/blog", label: "Blog" },
-  ],
-  rightLinks: [
-    { href: "/testimonials", label: "Testimonials" },
-    { href: "/faq", label: "FAQ" },
-  ],
-};
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/pricing", label: "About" },
+  { href: "/blog", label: "Contact" },
+  { href: "/birth", label: "Birth Planner" },
+];
 const Navbar = () => {
   const pathName = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -85,16 +80,16 @@ const Navbar = () => {
         initial="initial"
         animate={isVisible ? "visible" : "hidden"}
         variants={navbarVariants}
-        className="fixed top-0 left-0 right-0 bg-[#4C061D] py-2.5 px-4 md:px-10  z-50 rounded-b-3xl sm:rounded-none  "
+        className="fixed top-0 left-0 right-0 bg-[#4C061D] py-2.5 px-4 md:px-10  z-50 rounded-b-3xl   "
       >
         <div className="mx-auto flex justify-between items-center  rounded-full sm:px-10 py-1.5 sm:max-w-7xl ">
           <div className="hidden md:flex space-x-6">
-            {links.leftLinks.map((link) => (
+            {links.map((link) => (
               <Link
                 href={link.href}
                 key={link.href}
                 className={`${
-                  pathName === link.href ? "text-black" : "text-neutral-600 "
+                  pathName === link.href ? "text-white" : "text-white "
                 } font-medium hover:text-white hover:bg-[#FEC86E] transition-colors duration-200 rounded-2xl px-4 py-2 `}
               >
                 {link.label}
@@ -125,23 +120,6 @@ const Navbar = () => {
           </button>
           {/* Desktop Menu */}
 
-          <div className="hidden md:flex space-x-6">
-            {links.rightLinks.map((link) => (
-              <Link
-                href={link.href}
-                key={link.href}
-                className={`${
-                  pathName === link.href ? "text-black" : "text-neutral-600 "
-                } font-medium hover:text-white hover:bg-[#FEC86E] transition-colors duration-200 rounded-2xl px-4 py-2 `}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <button className="  text-gray-700 border border-gray-700 rounded-full px-4 py-2 hidden md:flex cursor-pointer">
-              Create your birth plan
-            </button>
-          </div>
-
           {/* mobile */}
         </div>
 
@@ -153,18 +131,7 @@ const Navbar = () => {
           className="md:hidden overflow-hidden "
         >
           <div className="flex flex-col space-y-4 pt-4 px-4">
-            {links.leftLinks.map((link) => (
-              <Link
-                href={link.href}
-                key={link.href}
-                className={`${
-                  pathName === link.href ? "text-black" : "text-neutral-400"
-                } hover:text-black transition-colors duration-200`}
-              >
-                {link.label}
-              </Link>
-            ))}
-            {links.rightLinks.map((link) => (
+            {links.map((link) => (
               <Link
                 href={link.href}
                 key={link.href}
