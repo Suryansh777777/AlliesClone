@@ -5,7 +5,11 @@ const Hero = () => {
   return (
     <section className="relative w-full  overflow-hidden bg-[#FCF7F3]  ">
       {/* Background Video */}
-
+      <img
+        src="/assets/herodesktop.png"
+        alt="hero desktop"
+        className="absolute top-0 right-0 h-full w-auto max-sm:hidden object-cover"
+      ></img>
       <img
         src="/assets/heromobile.png"
         className="absolute top-0 right-0 h-auto w-full sm:hidden object-cover"

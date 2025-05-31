@@ -80,7 +80,7 @@ const Navbar = () => {
         initial="initial"
         animate={isVisible ? "visible" : "hidden"}
         variants={navbarVariants}
-        className="fixed top-0 left-0 right-0 bg-[#4C061D] py-2.5 px-4 md:px-10  z-50 rounded-b-3xl   "
+        className="fixed top-0 left-0 right-0 bg-[#4C061D] py-2.5 px-4 md:px-10  z-50 rounded-b-3xl  max-w-7xl mx-auto"
       >
         <div className="mx-auto flex justify-between items-center  rounded-full sm:px-10 py-1.5 sm:max-w-7xl ">
           <div className="hidden md:flex space-x-6">
