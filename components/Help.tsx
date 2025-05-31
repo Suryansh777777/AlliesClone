@@ -31,7 +31,7 @@ export default function Help() {
                       fill="none"
                       viewBox="0 0 20 20"
                     >
-                      <g clip-path="url(#clip0_5300_309)">
+                      <g clipPath="url(#clip0_5300_309)">
                         <path
                           fill="#4B061D"
                           d="M19.167 9.166H.833a.833.833 0 0 0 0 1.667h18.334a.833.833 0 0 0 0-1.667"
@@ -67,7 +67,7 @@ export default function Help() {
                       fill="none"
                       viewBox="0 0 20 20"
                     >
-                      <g clip-path="url(#clip0_5300_314)">
+                      <g clipPath="url(#clip0_5300_314)">
                         <path
                           fill="#4B061D"
                           d="M19.167 9.167h-8.334V.833A.834.834 0 0 0 10 0a.833.833 0 0 0-.833.833v8.334H.833A.833.833 0 0 0 0 10a.833.833 0 0 0 .833.833h8.334v8.334a.833.833 0 0 0 1.666 0v-8.334h8.334a.834.834 0 0 0 0-1.666"
@@ -102,7 +102,7 @@ export default function Help() {
                       fill="none"
                       viewBox="0 0 20 20"
                     >
-                      <g clip-path="url(#clip0_5300_314)">
+                      <g clipPath="url(#clip0_5300_314)">
                         <path
                           fill="#4B061D"
                           d="M19.167 9.167h-8.334V.833A.834.834 0 0 0 10 0a.833.833 0 0 0-.833.833v8.334H.833A.833.833 0 0 0 0 10a.833.833 0 0 0 .833.833h8.334v8.334a.833.833 0 0 0 1.666 0v-8.334h8.334a.834.834 0 0 0 0-1.666"
@@ -137,7 +137,7 @@ export default function Help() {
                       fill="none"
                       viewBox="0 0 20 20"
                     >
-                      <g clip-path="url(#clip0_5300_314)">
+                      <g clipPath="url(#clip0_5300_314)">
                         <path
                           fill="#4B061D"
                           d="M19.167 9.167h-8.334V.833A.834.834 0 0 0 10 0a.833.833 0 0 0-.833.833v8.334H.833A.833.833 0 0 0 0 10a.833.833 0 0 0 .833.833h8.334v8.334a.833.833 0 0 0 1.666 0v-8.334h8.334a.834.834 0 0 0 0-1.666"
