@@ -1,7 +1,9 @@
 import Approach from "@/components/Approach";
 import HealthCare from "@/components/HealthCare";
+import Help from "@/components/Help";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import WhyWeLove from "@/components/WhyWeLove";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero />
       <HealthCare />
       <Approach />
+      <Help />
+      <WhyWeLove />
     </div>
   );
 }

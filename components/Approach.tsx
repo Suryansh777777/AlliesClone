@@ -3,7 +3,7 @@ import React from "react";
 export default function Approach() {
   return (
     <div>
-      <div className="bg-white w-full pt-30 max-sm:pt-14">
+      <div className="bg-white w-full pt-30 max-sm:pt-14 text-[#4B061D]">
         <div className="max-w-7xl max-lg:px-6 mx-auto overflow-hidden">
           <div className="">
             <h2 className="text-[50px] font-medium -tracking-large text-main-primary-500  text-center mb-2 max-sm:text-[30px] max-sm:leading-[34.5px]">
